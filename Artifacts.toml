@@ -1,34 +1,34 @@
 [[CUDA_Tile]]
 arch = "aarch64"
-git-tree-sha1 = "f0de4fe23e84516da95db172a7b314b0d8d73aea"
+git-tree-sha1 = "ae13a3824b5d85883718bad1a8253251b7b7abba"
 os = "macos"
 
     [[CUDA_Tile.download]]
-    sha256 = "a0af0c809b504770778794ee902dbb2c31763e63dc852c4b69f3458ba7679bd1"
-    url = "https://github.com/JuliaBinaryWrappers/CUDA_Tile_jll.jl/releases/download/CUDA_Tile-v13.1.8+0/CUDA_Tile.v13.1.8.aarch64-apple-darwin.tar.gz"
+    sha256 = "a7d59385b51d7dcad73de956672609d57505b07eb29e971a61f700e1949d021b"
+    url = "https://github.com/JuliaBinaryWrappers/CUDA_Tile_jll.jl/releases/download/CUDA_Tile-v13.2.0+0/CUDA_Tile.v13.2.0.aarch64-apple-darwin.tar.gz"
 [[CUDA_Tile]]
 arch = "aarch64"
-git-tree-sha1 = "2420c70abf75a40f689740d846ee394f7a5565fe"
+git-tree-sha1 = "ab554476a6fba611569f8dfbd9c909d872690fe8"
 libc = "glibc"
 os = "linux"
 
     [[CUDA_Tile.download]]
-    sha256 = "abe9d97ba98d1f5e2606d415ca4e8735bbde39a477187d55f02d875d135c2339"
-    url = "https://github.com/JuliaBinaryWrappers/CUDA_Tile_jll.jl/releases/download/CUDA_Tile-v13.1.8+0/CUDA_Tile.v13.1.8.aarch64-linux-gnu.tar.gz"
+    sha256 = "1e359fb416a229cde9bf42ca270388b385fc26e3db8d0a8f105892b799e89192"
+    url = "https://github.com/JuliaBinaryWrappers/CUDA_Tile_jll.jl/releases/download/CUDA_Tile-v13.2.0+0/CUDA_Tile.v13.2.0.aarch64-linux-gnu.tar.gz"
 [[CUDA_Tile]]
 arch = "x86_64"
-git-tree-sha1 = "1fa500d4b5ef800c3341a33afbe7100f24489d72"
+git-tree-sha1 = "41d587e33a3a9fb0429d80f8498b68b0b18d2997"
 libc = "glibc"
 os = "linux"
 
     [[CUDA_Tile.download]]
-    sha256 = "536c07b53c66f3ecfc105da3d7951ad7d106b864d46f11fc746052702399b037"
-    url = "https://github.com/JuliaBinaryWrappers/CUDA_Tile_jll.jl/releases/download/CUDA_Tile-v13.1.8+0/CUDA_Tile.v13.1.8.x86_64-linux-gnu.tar.gz"
+    sha256 = "4ba6e0d3f749bf8c0791d84cfd163cd186041c1de491e27c468f48b0a4e2896c"
+    url = "https://github.com/JuliaBinaryWrappers/CUDA_Tile_jll.jl/releases/download/CUDA_Tile-v13.2.0+0/CUDA_Tile.v13.2.0.x86_64-linux-gnu.tar.gz"
 [[CUDA_Tile]]
 arch = "x86_64"
-git-tree-sha1 = "4b948ea33dbdd7b906a9ea278b5127b4ff45294e"
+git-tree-sha1 = "a8dd0c9d52215cfeb5755932f9b616f18802ef50"
 os = "windows"
 
     [[CUDA_Tile.download]]
-    sha256 = "8db8eba1725010aee078e9fd20053ec9e56439a0cfa60e3a25f5695656275b5e"
-    url = "https://github.com/JuliaBinaryWrappers/CUDA_Tile_jll.jl/releases/download/CUDA_Tile-v13.1.8+0/CUDA_Tile.v13.1.8.x86_64-w64-mingw32.tar.gz"
+    sha256 = "3f7a2f98dcdf387121ff24870541a0a72169770a0788b0711731064088e24a4f"
+    url = "https://github.com/JuliaBinaryWrappers/CUDA_Tile_jll.jl/releases/download/CUDA_Tile-v13.2.0+0/CUDA_Tile.v13.2.0.x86_64-w64-mingw32.tar.gz"
