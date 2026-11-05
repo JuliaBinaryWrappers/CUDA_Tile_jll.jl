@@ -2,19 +2,19 @@
 export cuda_tile_opt, cuda_tile_tblgen, cuda_tile_translate
 
 JLLWrappers.@generate_wrapper_header("CUDA_Tile")
-JLLWrappers.@declare_executable_product(cuda_tile_opt)
 JLLWrappers.@declare_executable_product(cuda_tile_tblgen)
+JLLWrappers.@declare_executable_product(cuda_tile_opt)
 JLLWrappers.@declare_executable_product(cuda_tile_translate)
 function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_executable_product(
-        cuda_tile_opt,
-        "bin\\cuda-tile-opt.exe",
+        cuda_tile_tblgen,
+        "bin\\cuda-tile-tblgen.exe",
     )
 
     JLLWrappers.@init_executable_product(
-        cuda_tile_tblgen,
-        "bin\\cuda-tile-tblgen.exe",
+        cuda_tile_opt,
+        "bin\\cuda-tile-opt.exe",
     )
 
     JLLWrappers.@init_executable_product(
